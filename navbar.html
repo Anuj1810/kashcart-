@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 350px;
+            
+        }
+        li a{
+            display: block;
+           padding: 8px 15px;
+            background-color:grey;
+            text-decoration: none;
+
+        }
+        li a:hover{
+            background-color: white;
+            
+            color: rgb(78, 139, 158);
+        }
+li a.active{
+    background-color:rgb(121, 130, 143)
+    ;
+color: white;
+}
+
+li a:hover{
+    background-color: rgb(76, 152, 196);
+    color: white;
+}
+ul{
+    border: 1px solid rgb(77, 18, 240);
+}
+li{
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+    </style>
+</head>
+<body>
+    <ul>
+        
+        <li><a class="active" href="#home">home</a></li>
+        <li><a href="#news">news</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#about">about</a></li>
+    </ul>
+</body>
+</html>

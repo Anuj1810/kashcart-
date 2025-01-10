@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown menu</title>
+    <style>
+.dropbtn {
+    background-color:yellow;
+    color: red;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(131, 125, 125);
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+    
+}
+.dropdown-content div {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+
+}
+
+.dropdown-content a:hover{
+    background-color:pink;
+}
+.dropdown:hover  .dropbtn-content{
+display: block;
+}
+
+.dropdown:hover  .dropbtn{
+    background-color:blue;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <h1>dropdown menu</h1>
+    <p>move te mouse over the button</p>
+    <div class="dropdown">
+        <button class="dropbtn">dropdown</button>
+        <div class="dropdown-content">
+          <a href="www.google.com">link 1</a>
+          <a href="www.facbook.com">link 2</a>
+          <a href="www.tweeter.com">link 3</a>
+          <a href="www.w3school.com">link 4</a>
+        </div>
+
+    </div>
+    <p><strong>note:</strong> we are use herf="#" for test link</p>
+</body>
+</html>
